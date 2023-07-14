@@ -6,7 +6,7 @@ export function NavMenu() {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <Link href="/projects/" className="nav__link">
+          <Link href="/projects" className="nav__link">
             Personal Projects
           </Link>
         </li>
