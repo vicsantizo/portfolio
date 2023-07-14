@@ -1,4 +1,5 @@
 import './globals.css';
+import { Header } from '../components/layout/header';
 import { Inter } from 'next/font/google';
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
+        <Header />
         <div className="content">{children}</div>
       </body>
     </html>
