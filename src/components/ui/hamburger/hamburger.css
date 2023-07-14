@@ -1,0 +1,40 @@
+.hamburger {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+  margin-left: auto;
+}
+
+.hamburger__ingredient {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.hamburger:hover .hamburger__ingredient {
+  background-color: var(--gray-400);
+}
+
+/* increase touch/click area */
+.hamburger--open::after {
+  content: '';
+  position: absolute;
+  height: 23px;
+  width: 23px;
+}
+
+.hamburger--open .hamburger__ingredient--patty {
+  display: none;
+}
+
+.hamburger--open .hamburger__ingredient--top {
+  transform: rotate(45deg);
+}
+
+.hamburger--open .hamburger__ingredient--bottom {
+  position: absolute;
+  transform: rotate(-45deg);
+}
