@@ -10,12 +10,16 @@
   color-scheme: dark light;
   --dark-background: #212529;
 
-  --font-size-h1: 1.65rem;
+  --font-size-title: 1.65rem;
+  --font-size-h1: 1.35rem;
   --font-size-h2: 1.2rem;
   --font-size-h3: 1rem;
   --font-size-primary: 1rem;
   --font-size-secondary: 0.875rem;
   --font-size-tertiary: 0.75rem;
+
+  --border-radius-subtle: 0.3rem;
+  --border-radius-mid: 0.65rem;
 
   --padding-1: 0.25rem;
   --padding-2: 0.5rem;
