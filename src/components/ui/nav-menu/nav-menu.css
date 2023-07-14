@@ -1,0 +1,27 @@
+.nav {
+  width: 100%;
+  transition: display 0.3s ease-in;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__link {
+  display: block;
+  padding: var(--padding-6) var(--padding-8);
+}
+
+.nav__item:nth-child(odd) {
+  border-top: 1px solid var(--gray-700);
+  border-bottom: 1px solid var(--gray-700);
+}
+
+.nav__item:last-child {
+  border-bottom: 1px solid var(--gray-700);
+}
+
+.nav__item:hover {
+  background-color: var(--gray-800);
+}
