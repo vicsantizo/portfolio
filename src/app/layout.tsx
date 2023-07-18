@@ -3,7 +3,7 @@ import { Header } from '../components/layout/header';
 import { Inter } from 'next/font/google';
 
 export const metadata = {
-  title: 'Portfolio',
+  title: 'Portfolio - Victor Fernández',
   description: 'Front-end developer portfolio',
 };
 

@@ -1,0 +1,15 @@
+.portfolio {
+  margin-top: var(--margin-8);
+}
+
+.portfolio__title {
+  font-size: var(--font-size-h1);
+  font-weight: 500;
+  margin-bottom: var(--margin-5);
+}
+
+.portfolio__projects {
+  display: flex;
+  gap: var(--spacing-6);
+  overflow-x: scroll;
+}
