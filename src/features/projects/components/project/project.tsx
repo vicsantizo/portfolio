@@ -21,7 +21,7 @@ export function Project(props: ProjectProps) {
   return (
     <div className="project" data-testid="project">
       <div className="project__display">
-        <Image src={imgLink} width={45} height={45} alt={`${shortenedTitle} logo`} className="project__img" />
+        <Image src={imgLink} width={60} height={60} alt={`${shortenedTitle} logo`} className="project__img" />
       </div>
 
       <div className="project__info">

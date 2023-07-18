@@ -19,7 +19,7 @@
 }
 
 .project__img {
-  filter: opacity(0);
+  filter: grayscale(1);
 }
 
 .project__title {
