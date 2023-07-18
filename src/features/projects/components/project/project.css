@@ -18,18 +18,28 @@
   background-color: #212121;
 }
 
+.project__display:hover {
+  opacity: 0.4;
+}
+
 .project__img {
   filter: grayscale(1);
 }
 
+.project__go {
+  display: inline;
+}
+
 .project__title {
+  display: inline;
   font-size: var(--font-size-h2);
   font-weight: bold;
-  margin-bottom: var(--margin-2);
+  text-decoration: underline;
 }
 
 .project__desc {
   color: var(--gray-400);
+  margin-top: var(--margin-2);
   margin-bottom: var(--spacing-4);
   height: 3.5rem;
   max-height: 3.5rem;
